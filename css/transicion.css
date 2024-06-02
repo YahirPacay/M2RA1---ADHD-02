@@ -1,0 +1,139 @@
+/*Todo esto son transiciones*/
+
+.animacion1 {
+    transition-duration: 0.5s;
+    width: 200px;
+    height: 200px;
+    background: grey;
+    box-shadow: 20px 40px 20px;
+}
+
+.animacion1:hover {
+    background: indigo;
+    color: white;
+    box-shadow: 20px 40px 20px;
+}
+
+.animacion2 {
+    display: inline-block;
+    background: #ddd;
+    color: #222;
+    padding: 8px 16px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+    
+  }
+  
+  .animacion2:hover {
+    background: #fff;
+    color: darkred;
+    padding: 32px;
+    border: 1px solid darkred;
+    box-shadow: 20px 10px 50px;
+  }
+
+  .animacion3 {
+    background: black;
+    color: white;
+    padding: 8px;
+    width: 200px;
+    height: 200px;
+    transition: background 0.2s linear;
+    box-shadow: 20px 40px 20px;
+  }
+  
+  .animacion3:hover {
+    background: red;
+    transition: background 2s linear;
+  }
+
+  .animacion4 {
+    width: 200px;
+    height: 200px;
+    background: grey;
+    transition:
+      width 3s,
+      background-color 0.5s;
+      box-shadow: 20px 40px 20px;
+  }
+  
+  .animacion4:hover {
+    width: 400px;
+    background: deeppink;
+  }
+
+  .animacion5 {
+    width: 100px;
+    height: 100px;
+    background: orange;
+    transition: width 2s, height 4s;
+    box-shadow: 20px 40px 20px;
+  }
+  
+  .animacion5:hover {
+    width: 300px;
+    height: 300px;
+  }
+
+  .animacion6 {
+    width: 100px;
+    height: 100px;
+    background: green;
+    transition: width 2s, height 2s, transform 2s;
+    box-shadow: 20px 40px 20px;
+  }
+  
+  .animacion6:hover {
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+  }
+
+  body{
+    background-color: white;
+    transition: background 2s linear;
+  }
+  body:hover{
+    background-color: blue;
+  }
+
+  nav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  nav li {
+    float: left;
+    width: 20%;
+  }
+  nav li a {
+    display: block;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  nav li a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  h1{
+    color: white;
+    text-align: center;
+  }
+
+  .container{
+    border: 1px solid black;
+    width: 500px;
+    height: 930px;
+    margin: 50px auto auto auto;
+    background-color: #ddd;
+    box-shadow: 20px 40px 20px;
+  }
